@@ -1,0 +1,248 @@
+#homePage{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;  
+
+	-webkit-flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+
+	background: url(../img/indexBackground.jpg) no-repeat center center;
+	height: 100%;
+	width: 100%;
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.content-motto{
+	color: white;
+
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-flow: column nowrap;
+	align-items: center;
+}
+
+.content-motto :nth-child(1) {
+	font-size: 66px;
+	margin-bottom: 0;
+}
+
+.content-button{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-flow: row nowrap;
+	justify-content: center;
+
+	position: relative;
+}
+
+#expButtonBox{
+	display: inline-block;
+	height: 56px;
+	width: 138px;
+	position: relative;
+}
+
+.ctButtonBorder{
+	display: inline-block;
+
+	background-color: #fff;
+	position: absolute;
+}
+
+#ctButtonBorderRight{
+	right: -2px;
+	bottom: -2px;
+
+	height: 0px;
+	width: 2px;
+}
+#ctButtonBorderLeft{
+	left: -2px;
+	top: -2px;
+
+	height: 0px;
+	width: 2px;
+}
+#ctButtonBorderTop{
+	height: 2px;
+	width: 0px;
+
+	top: -2px;
+	right: 0px;
+}
+
+#ctButtonBorderBottom1{
+	width: 0px;
+	height: 2px;
+
+	bottom: -2px;
+	left: 0px;
+}
+#ctButtonBorderBottom2{
+	width: 0px;
+	height: 2px;
+
+	bottom: -2px;
+	left: 69px;
+}
+#expButtonBox:hover>#experienceHere{
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+/*********for each ctButtonBorder****************/
+#expButtonBox:hover>.ctButtonBorder{
+	-webkit-transition-timing-function: linear;
+	 -moz-transition-timing-function: linear;
+	 -ms-transition-timing-function: linear;
+	 -o-transition-timing-function: linear;
+	 transition-timing-function: linear;
+}
+#expButtonBox:hover>#ctButtonBorderBottom2,#expButtonBox:hover>#ctButtonBorderBottom1{
+	-webkit-transition-duration: 69ms;
+	-moz-transition-duration: 69ms;
+	-o-transition-duration: 69ms;
+	transition-duration: 69ms;
+}
+#expButtonBox:hover>#ctButtonBorderRight,#expButtonBox:hover>#ctButtonBorderLeft{
+	-webkit-transition-duration: 60ms;
+	-moz-transition-duration: 60ms;
+	-o-transition-duration: 60ms;
+	transition-duration: 60ms;
+}
+#expButtonBox:hover>#ctButtonBorderBottom2{
+	width: 69px;
+	-moz-transition-property: width;
+    -webkit-transition-property: width;
+    -o-transition-property: width;
+    transition-property: width;
+}
+#expButtonBox:hover>#ctButtonBorderRight{
+	height: 60px;
+	-moz-transition-property: height;
+    -webkit-transition-property: height;
+    -o-transition-property: height;
+    transition-property: height;
+
+    -webkit-transition-delay: 69ms;
+    -moz-transition-delay: 69ms;
+    -o-transition-delay: 69ms;
+    transition-delay: 69ms;
+}
+#expButtonBox:hover>#ctButtonBorderTop{
+	width: 138px;
+	-webkit-transition-duration: 138ms;
+	-moz-transition-duration: 138ms;
+	-o-transition-duration: 138ms;
+	transition-duration: 138ms;
+
+	-moz-transition-property: width;
+    -webkit-transition-property: width;
+    -o-transition-property: width;
+    transition-property: width;
+
+    -webkit-transition-delay: 129ms;
+    -moz-transition-delay: 129ms;
+    -o-transition-delay: 129ms;
+    transition-delay: 129ms;
+}
+#expButtonBox:hover>#ctButtonBorderLeft{
+	height: 60px;
+	-moz-transition-property: height;
+    -webkit-transition-property: height;
+    -o-transition-property: height;
+    transition-property: height;
+
+    -webkit-transition-delay: 267ms;
+    -moz-transition-delay: 267ms;
+    -o-transition-delay: 267ms;
+    transition-delay: 267ms;
+}
+#expButtonBox:hover>#ctButtonBorderBottom1{
+	width: 69px;
+	-moz-transition-property: width;
+    -webkit-transition-property: width;
+    -o-transition-property: width;
+    transition-property: width;
+
+    -webkit-transition-delay: 327ms;
+    -moz-transition-delay: 327ms;
+    -o-transition-delay: 327ms;
+    transition-delay: 327ms;
+}
+
+/*************ctBUttonShadow*********/
+#ctBUttonShadow{
+	display: inline-block;
+	opacity: 0;
+	width: 142px;
+	height: 60px;
+
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	box-shadow:2px 0px 7px #A3A3A3,0px 2px 7px #A3A3A3,-2px 0px 7px #A3A3A3,0px -2px 7px #A3A3A3;
+}
+
+#expButtonBox:hover>#ctBUttonShadow{
+	box-shadow:2px 0px 7px rgba(163, 163, 163, 0),0px 2px 7px rgba(163, 163, 163, 0),-2px 0px 7px rgba(163, 163, 163, 0),0px -2px 7px rgba(163, 163, 163, 0);
+	opacity: 1;
+	width: 158px;
+	height: 76px;
+
+	top: -10px;
+	left: -10px;
+
+	-webkit-transition-duration: 250ms;
+	-moz-transition-duration: 250ms;
+	-o-transition-duration: 250ms;
+	transition-duration: 250ms;
+
+	-moz-transition-property: width height top left box-shadow;
+    -webkit-transition-property: width height top left box-shadow;
+    -o-transition-property: width height top left box-shadow;
+    transition-property: width height top left box-shadow;
+
+    -webkit-transition-delay: 396ms;
+    -moz-transition-delay: 396ms;
+    -o-transition-delay: 396ms;
+    transition-delay: 396ms;
+}
+.content-motto :nth-child(2) {
+	font-size: 23px;
+}
+
+#experienceHere {
+	display: inline-block;
+	height: 56px;
+	width: 138px;
+	line-height: 56px;
+	color: white;
+	font-size: 20px;
+	background-color: #6bd56d;	
+	border: none;
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-align: center;
+	outline: none;
+}
