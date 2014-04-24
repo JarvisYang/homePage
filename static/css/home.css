@@ -9,7 +9,7 @@
 	justify-content: center;
 	align-items: center;
 
-	background: url(../img/indexBackground.jpg) no-repeat center center;
+	background-image: url(../img/homeBG.jpg);
 	height: 100%;
 	width: 100%;
 
@@ -116,13 +116,15 @@
 	 -o-transition-timing-function: linear;
 	 transition-timing-function: linear;
 }
-#expButtonBox:hover>#ctButtonBorderBottom2,#expButtonBox:hover>#ctButtonBorderBottom1{
+#expButtonBox:hover>#ctButtonBorderBottom2,
+#expButtonBox:hover>#ctButtonBorderBottom1{
 	-webkit-transition-duration: 69ms;
 	-moz-transition-duration: 69ms;
 	-o-transition-duration: 69ms;
 	transition-duration: 69ms;
 }
-#expButtonBox:hover>#ctButtonBorderRight,#expButtonBox:hover>#ctButtonBorderLeft{
+#expButtonBox:hover>#ctButtonBorderRight,
+#expButtonBox:hover>#ctButtonBorderLeft{
 	-webkit-transition-duration: 60ms;
 	-moz-transition-duration: 60ms;
 	-o-transition-duration: 60ms;

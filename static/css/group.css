@@ -1,0 +1,46 @@
+#groupPage{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+
+	position: absolute;
+	top: 200%;
+	left: 0px;
+}
+
+.eachGroupPage{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+}
+
+#androidPage{
+	background-image: url(../img/androidBG.jpg);
+	left: 0px;
+}
+#webPage{
+	background-image: url(../img/webBG.png);
+	left: 100%;
+}
+#designPage{
+	background-image: url(../img/designBG.png);
+	left: 200%;
+}
+#esdPage{
+	background-image: url(../img/esdBG.png);
+	left: 300%;
+}
+#algPage{
+	background-image: url(../img/algBG.png);
+	left: 400%;
+}
+#ITPage{
+	background-image: url(../img/ITBG.png);
+	left: 500%;
+}
+#PMPage{
+	background-image: url(../img/PMBG.png);
+	left: 600%;
+}

@@ -1,0 +1,43 @@
+#introducePage{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+
+	background-image: url(../img/introduceBG.png);
+
+	position: absolute;
+	top:100%;
+	left: 0px;
+
+	text-align: center;
+}
+
+#introduceContent{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	
+	-webkit-flex-direction:column;
+    -moz-flex-direction:column;
+    flex-direction:column;
+
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	-ms-justify-content: center;
+	-o-justify-content: center;
+	justify-content: center;
+
+	height: 100%;
+	width: 887px;
+	margin: 0px auto;
+
+	text-align: left;
+}
+
+#introduceContent>span{
+	line-height: 40px;
+	font-size: 20px;
+	color: #fff;
+}

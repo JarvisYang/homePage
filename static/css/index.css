@@ -21,9 +21,22 @@ html,body {
 	align-items: center;
 
 	width: 100%;
-	height: 6.8%;
+	height: 52px;
 	background-color: rgba(37,37,37,0.5);
 	z-index: 100;
+}
+
+.hdleft{
+	display: inline-block;
+	height: 33px;
+	width: 68px;
+	margin: 11px 0px 0px 23px;
+	background-image: url(../img/uniqueLogo.png);
+	
+	background-position: center 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
 }
 
 #header a {
@@ -68,7 +81,7 @@ html,body {
 	bottom: 0px;
 
 	background-color: rgba(37,37,37,0.5);
-	height: 5.3%;
+	height: 41px;
 	width: 100%;
 
 	font-size: 12px;
@@ -84,4 +97,12 @@ html,body {
 
 #footer > span {
 	opacity: 0.8;
+}
+
+.eachBG{
+	background-position: center 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
 }
