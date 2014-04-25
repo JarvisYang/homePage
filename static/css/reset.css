@@ -1,0 +1,16 @@
+html,body{
+	margin:0px;
+}
+
+div,body,html{
+	font-size: 0px;
+}
+
+p,a,span{
+    font-family: 'Open Sans','Helvetica Neue',Arial,'Hiragino Sans GB','Microsoft YaHei','WenQuanYi Micro Hei',sans-serif;
+}
+
+a{
+	outline: 0px;
+	text-decoration: none;
+}

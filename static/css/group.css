@@ -1,0 +1,117 @@
+.eachGroupPage{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+
+	overflow: hidden;
+}
+
+#androidPage{
+	background-image: url(../img/androidBG.jpg);
+	top: 100%;
+	left: 0px;
+}
+#iosPage{
+	background-image: url(../img/homeBG.jpg);
+	top: 0px;
+	left: 100%;
+}
+#webPage{
+	background-image: url(../img/webBG.png);
+	top: 0px;
+	left: 100%;
+}
+#designPage{
+	background-image: url(../img/designBG.png);
+	top: 0px;
+	left: 100%;
+}
+#esdPage{
+	background-image: url(../img/esdBG.png);
+	top: 0px;
+	left: 100%;
+}
+#algPage{
+	background-image: url(../img/algBG.png);
+	top: 0px;
+	left: 100%;
+}
+#ITPage{
+	background-image: url(../img/ITBG.png);
+	top: 0px;
+	left: 100%;
+}
+#PMPage{
+	background-image: url(../img/PMBG.png);
+	top: 0px;
+	left: 100%;
+}
+
+/*********groupBrowseBox*********/
+#groupBrowseBox{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	
+	-webkit-flex-direction:row;
+    -moz-flex-direction:row;
+    flex-direction:row;
+
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	justify-content: space-between;
+
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	-ms-align-items: center;
+	-o-align-items: center;
+	align-items: center;
+
+	width: 307px;
+	height: 34px;
+	margin: 0px auto;
+
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 60px;
+}
+
+#groupToLeft{
+	display: inline-block;
+	width: 19px;
+	height: 34px;
+
+	background-image: url(../img/toLeft.png);
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	background-size: 100% 100%;
+
+	margin-right: 15px;
+}
+
+#groupToRight{
+	display: inline-block;
+	width: 19px;
+	height: 34px;
+
+	background-image: url(../img/toRight.png);
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	background-size: 100% 100%;
+
+	margin-left: 15px;
+}
+
+.groupBrowseDot{
+	display: inline-block;
+	width: 7px;
+	height: 7px;
+
+	border-radius: 100px;
+
+	background-color: #cacaca;
+}
