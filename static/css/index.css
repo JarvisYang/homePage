@@ -63,6 +63,8 @@ html,body {
 	height: 100%;
 
 	position: relative;
+
+	overflow: hidden;
 }
 
 #footer {
@@ -102,7 +104,6 @@ html,body {
 .eachBG{
 	background-position: center 0;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
 }
